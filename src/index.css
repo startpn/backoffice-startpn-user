@@ -1,0 +1,508 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+@font-face {
+  font-family: "Comforta-Regular";
+  src: url(./fonts/Comfortaa/Comfortaa-Regular.ttf);
+}
+@font-face {
+  font-family: "Comforta-SemiBold";
+  src: url(./fonts/Comfortaa/Comfortaa-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Comforta-Bold";
+  src: url(./fonts/Comfortaa/Comfortaa-Bold.ttf);
+}
+
+
+
+@font-face {
+  font-family: "Manrope-Regular";
+  src: url(./fonts/Manrope/Manrope-Regular.ttf);
+}
+
+.textPrimaryLanding{
+
+  font-family: "Comforta-Regular";
+  font-size: 1.875rem;
+
+}
+
+
+.textDescriptionlanding{
+
+  font-family: "Comforta-Regular";
+  line-height: 1.938rem;
+  font-size: 1.313rem;
+
+}
+
+.textLoginLanding{
+
+  font-family: "Comforta-SemiBold";
+  color:"black";
+  font-size: 1.513rem;
+  margin-bottom: 3.125rem;
+}
+
+.labelInputLogin{
+
+  font-family: "Comforta-Bold";
+  color:"black";
+  font-size: 0.875rem;
+  margin-bottom:0.125rem;
+  margin-left: '30px';
+}
+
+.inputLogin{
+
+  color:"black";
+  font-family: "Comforta-Bold";
+}
+
+.textPrimaryNotRegister{
+
+  font-family: "Manrope-Regular";
+  cursor: pointer;
+}
+
+.textSecondaryNotRegister{
+
+  font-family: "Manrope-Regular";
+  color: #137ECB;
+  margin-left: 15px;
+  cursor: pointer;
+
+}
+
+.textButtonLogin{
+
+  font-family: "Comforta-Bold";
+
+}
+
+
+.textHeaderThowColumnLayout{
+
+  font-family: "Comforta-Bold";
+  color:"black";
+  font-size: 1.313rem;
+  margin-bottom:0.125rem;
+  margin-left: '30px';
+
+}
+
+.textClientInfoHeader{
+  margin-top: 15px;
+  font-size: '0.3rem';
+  font-family: "Comforta-Regular";
+
+}
+
+.nameProjectInfoHeaderCard{
+
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  color:'black';
+  font-size: 1.063rem;
+}
+
+.nameSecondaryProjectInfoHeaderCard{
+
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  color: #65676D;  
+  font-size: 0.875rem;
+}
+
+.textInDevelopementCard{
+
+  
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  color:black
+}
+
+.percentageDevelopementCard{
+
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  color:#1172EB
+}
+
+.textNameClientCard{
+  
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  color:black;
+  font-size: 1rem;
+  margin-left: 0.823rem;
+  height: 1.1rem;
+
+}
+
+.textCpfClientCard{
+
+  font-family: "Comforta-Regular";
+  font-weight: 400;
+  color:black;
+  margin-left: 0.823rem;
+  font-size: 0.813rem;
+}
+
+.textNumberFeaturesCard{
+
+  
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  color:black;
+  height: 11px;
+
+  font-size: 0.938rem;
+}
+
+.textCountNumberFeaturesCard{
+
+
+  font-family: "Comforta-Regular";
+  font-weight: 300;
+  color:black;
+  font-size: 0.875rem;
+}
+
+.textDateCard{
+
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  color:black;
+  height: 11px;
+  font-size: 0.938rem;
+}
+
+.textNumberDateCard{
+
+  
+  font-family: "Comforta-Regular";
+  font-weight: 300;
+  color:black;
+  font-size: 0.875rem;
+}
+
+.textBtnCard{
+
+ 
+  font-family: "Comforta-Regular";
+  font-weight: 400;
+  font-size: 1rem;
+  color:white;
+}
+
+.textBtnDashboard{
+
+  font-family: "Comforta-Regular";
+  font-weight: 400;
+  font-size: 0.938rem;
+  color:white;
+}
+
+.textFunctionlitie{
+
+  
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  font-size:0.938rem;
+  text-align: left;
+  margin-top:1rem;
+  width: 220px;
+  margin-left: 0.5rem;
+  color:black;
+}
+
+.textQuantitySelectFunction{
+
+  
+  font-family: "Comforta-Regular";
+  font-weight: 400;
+  font-size:0.938rem;
+  margin-left: 0.5rem;
+  width: 220px;
+
+  text-align: left;
+  color:black;
+}
+
+.textSubFunctionlitie{
+    
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  font-size:0.938rem;
+  text-align: left;
+  margin-top:0.4rem;
+  width: 180px;
+  margin-left: 0.1rem;
+  color:black;
+}
+
+.textValueFunction{
+
+  font-family: "Comforta-Regular";
+  font-weight: 400;
+  font-size:0.938rem;
+  margin-left: 0.1rem;
+  width: 220px;
+  margin-top: -0.75rem;
+  text-align: left;
+  color:black;
+}
+
+.textDevelopFunction{
+
+  font-family: "Comforta-Regular";
+  font-weight: 400;
+  font-size:0.938rem;
+  margin-right: 4.5rem;
+  width: 220px;
+  margin-top: -0.75rem;
+  text-align: left;
+  color:black;
+}
+
+.textSelectAll{
+
+  
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  font-size:0.8rem;
+  width: 120px;
+
+  color:#1172EB;
+}
+
+.textTypeOptionSidebar{
+  text-transform: capitalize;
+
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  font-size: 1.063rem;
+}
+
+.textTypeOptionProject{
+  text-transform: capitalize;
+  font-family: "Comforta-Regular";
+  font-weight: 300;
+}
+
+.textFunctionalities{
+
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  font-size: 1.063rem;
+}
+
+.textNumberFeatures{
+
+  font-family: "Comforta-Regular";
+  font-weight: 400;
+  font-size: 0.875rem;  
+}
+
+.textFunctionlitieCartPrimary{
+  
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  font-size:0.938rem;
+  margin-top:1rem;
+  width: 100%;
+  text-align: left;
+  color:black;
+}
+
+.textFunctionlitieCartSecondary{
+
+ font-family: "Comforta-Regular";
+ font-weight: 400;
+ font-size:1rem;
+  margin-top:1rem;
+  width: 100%;
+  text-align: left;
+  color:black;
+}
+
+.textPreviewComponent{
+  font-family: "Comforta-Regular";
+  color:#3E3E3E;
+  font-size: 0.875rem;
+  text-align: center;
+  line-height: 22px;
+  letter-spacing: 0.101193px;
+  height: 65px;
+}
+
+.textValueProject{
+
+  font-family: "Comforta-Regular";
+  color:#000000;
+  font-weight: 400;
+  font-size: 0.895rem;
+}
+
+.textInfoProject{
+  
+  font-family: "Comforta-Regular";
+  color:#000000;
+  font-weight: 700;
+  font-size: 0.938rem;
+}
+
+.textNameImageComponent{
+
+  
+  font-family: "Comforta-Regular";
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  font-size: 25px;
+  line-height: 24px;
+}
+
+.textInfoProjectTimePrimary{
+
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  color: #000000;
+  font-size: 0.938rem;
+}
+
+.textInfoProjectTimeSecondary{
+
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.063rem;
+}
+
+.borderLeftSubFunctionalitie{
+  position: absolute;
+  left: 0;
+  border-left: 8px solid #1172EB;
+  top:0px;
+  height: 78px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8.5px; 
+  height: 15px;
+  background: #D8D8D8;
+  border-radius: 50px;
+
+}
+
+.textBtnFinish{
+
+  font-family: "Comforta-Regular";
+  color:white;
+  font-weight: 700;
+  font-size: 0.938rem;
+}
+
+.errorMessageLogin{
+
+  font-family: "Comforta-SemiBold";
+  color:red;
+  position: absolute;
+  bottom:0;
+  margin-left: 5px;
+  height: 12px;
+
+}
+
+.textLoginError{
+
+  font-family: "Comforta-SemiBold";
+  color:red;
+}
+
+
+.textHeaderModalCreateProject{
+
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  position: relative;
+  top:11px;
+  margin-left: 1.313rem;
+  font-size: 1.125rem;
+  color: #000000;
+}
+
+.textPrimaryModalCreateProject{
+  margin-top: 0.038rem;
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  font-size: 1.1rem;
+  
+}
+
+.textSecondaryModalCreateProject{
+
+  font-family: "Comforta-Regular";
+  font-weight: 500;
+  font-size: 1.0rem;
+  
+}
+.labelModalCreateProject{
+
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  font-size: 1.0rem;
+}
+
+.typePlataformModalCreateProject{
+  margin-top: 1.25rem;
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  font-size: 1.0rem;
+}
+
+.textInputModalCreateProject{
+
+  
+  font-family: "Comforta-Regular";
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.textBtnModalCreateProject{
+
+  font-family: "Comforta-Regular";
+  font-weight: 700;
+  font-size: 0.938rem;
+  color:"white"
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #D8D8D8;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.33);
+  border-radius: 10px;
+}
+
